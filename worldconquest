@@ -1,0 +1,88 @@
+`GET /worldconquest/maps/:mapName/static`
+```
+{
+  "regionId" : 1,
+  "scorchedVictoryTowns": 0,
+  "mapItems" : [ {
+    "teamId" : "NONE",
+    "iconType" : 22,
+    "x" : 0.21965122,
+    "y" : 0.6231655,
+    "flags" : 0
+  },
+
+  ...
+
+ ],
+  "mapTextItems" : [ {
+    "text" : "Abandoned Ward",
+    "x" : 0.410076,
+    "y" : 0.4957782
+  },
+
+  ...
+ ],
+  "worldExtentsMinX" : -61645.926,
+  "worldExtentsMinY" : -84705.41,
+  "worldExtentsMaxX" : 78413.08,
+  "worldExtentsMaxY" : 82011.05,
+  "warReport": {
+        "totalEnlistments": 126,
+        "colonialCasualties": 21,
+        "wardenCasualties": 16
+  },
+  "lastUpdated" : 1524672871955,
+  "version" : 2
+}
+```
+
+##### Map Icons
+
+```
+    PortBase(4)
+
+    StaticBase1(5)
+    StaticBase2(6)
+    StaticBase3(7)
+
+    ForwardBase1(8)
+    ForwardBase2(9)
+    ForwardBase3(10)
+
+    Hospital          (11)
+    VehicleFactory    (12)
+    Armory            (13)
+    SupplyStation     (14)
+    Workshop          (15)
+    ManufacturingPlant(16)
+    Refinery          (17)
+    Shipyard          (18)
+    TechCenter        (19)
+
+    SalvageField    (20)
+    ComponentField  (21)
+    FuelField       (22)
+    SulfurField     (23)
+    WorldMapTent    (24)
+    TravelTent      (25)
+    TrainingArea    (26)
+    SpecialBase     (27) v0.14
+    ObservationTower(28) v0.14
+    Fort            (29) v0.14
+    TroopShip       (30) v0.14
+    ScrapMine       (31) v0.16
+    SulfurMine      (32) v0.16
+    StorageFacility (33) v0.17
+    Factory         (34) v0.17
+    Garrison Station(35) v0.20
+    Ammo Factory	(36) v0.20
+    Rocket Site 	(37) v0.20
+```
+
+##### Map Flags
+
+```
+    IsVictoryBase (0x01)
+    IsHomeBase    (0x02)
+    IsBuildSite   (0x04)
+```
